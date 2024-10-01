@@ -373,13 +373,14 @@ h3.menu-item-title {
     .navbar-brand {
         padding-top: 10px;
         height: 80px;
+        text-align: center;
     }
 
     .navbar-brand h1 {
         /* Restaurant name */
         padding-top: 10px;
         font-size: 5vw;
-        padding-left: 120px;
+        text-align: center;       
         /* 1vw = 1% of viewport width */
     }
 
