@@ -441,6 +441,7 @@ h3.menu-item-title {
     .container .jumbotron {
         margin-top: 30px;
         padding: 0;
+         text-align: center;
     }
 
     #menu-tile,
@@ -482,6 +483,7 @@ h3.menu-item-title {
     #specials-tile {
         width: 280px;
         margin: 0 auto 15px;
+         text-align: center;
     }
 
     .col-xxs-12 {
