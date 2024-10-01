@@ -22,7 +22,7 @@ body {
 }
 
 #logo-img {
-    background: url("/images/logo.png") no-repeat;
+    background: url("first-project/images/logo.png") no-repeat;
     /* background-size: cover; */
     width: 150px;
     height: 150px;
