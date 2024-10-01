@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظرات و پیشنهادات - پارچه فروشی و خیاطی اکبری</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>پارچه فروشی و خیاطی اکبری</h1>
+                        </a>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div> <!-- بسته شدن navbar-header -->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span>خانه</a>
+                        </li>
+                        <li>
+                            <a href="menu-categories.html">
+                                <span class="glyphicon glyphicon-picture">
+                                </span><br class="hidden-xs"> فهرست</a>
+                        </li>
+                        <li>
+                            <a href="about.html">
+                                <span class="glyphicon glyphicon-info-sign">
+                                </span><br class="hidden-xs"> درباره ما</a>
+                        </li>
+                        <li class="active">
+                            <a href="contact.html">
+                                <span class="glyphicon glyphicon-comment">
+                                </span><br class="hidden-xs"> نظرات و پیشنهادات</a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel:+93 789 898 989" class="ltr">
+                                <span phone-num>+۹۳ ۷۸۹ ۷۸۹ ۷۸۹</span></a>
+                            <div>* ما همیشه در دسترسیم </div>
+                        </li>
+                    </ul><!-- #nav-list -->
+                </div><!-- .collapse .navbar-collapse -->
+            </div> <!-- بسته شدن container -->
+        </nav>
+    </header>
+    <!-- شماره تلفن برای نمایش در موبایل -->
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:+93 789 898 989">
+            <span class="glyphicon glyphicon-earphone"> +۹۳ ۷۸۹ ۸۹۸ ۹۸۹
+            </span>
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* ما همیشه دسترسیم</div>
+
+    <div id="main-content" class="container">
+        <h2>نظرات و پیشنهادات</h2>
+        <p>لطفاً نظرات و پیشنهادات خود را با ما در میان بگذارید:</p>
+
+        <!-- Feedback Form -->
+        <form action="/submit_comment" method="POST">
+            <div class="form-group">
+                <label for="name">نام:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">ایمیل:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="comment">نظر شما:</label>
+                <textarea class="form-control" id="comment" name="comment" rows="5" required>
+                </textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">ارسال</button>
+        </form>
+    </div>
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>ساعات کاری</span><br>
+                    شنبه تا پنجشنبه: ۸ صبح تا نماز عصر<br>
+                    جمعه: تعطیل<br>
+                    رمضان: ساعات ویژه
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>آدرس ما</span><br>
+                    افغانستان، هرات، شیندند<br>
+                    قریه مندیل، روبروی تیل‌فروشی حسن آقا
+                    <p>* ما متعهد به ارائه بهترین کیفیت خدمات به مشتریان خود هستیم.</p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>"بهترین خیاطی در ولسوالی پشت کوه با ۳۰ سال تجربه حرفه‌ای!"</p>
+                    <p>"متخصص در دوخت انواع لباس‌های مردانه و بچه‌گانه،
+                        از جمله: لباس یخنی، وطنی و طالبی."</p>
+                </section>
+            </div>
+            <div class="text-center">&copy; تمامی حقوق برای پارچه فروشی و خیاطی اکبریم محفوط
+                است. ما به رضایت شما اهمیت می‌دهیم!</div>
+        </div>
+    </footer>
+
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
