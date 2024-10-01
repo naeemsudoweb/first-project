@@ -465,6 +465,7 @@ h3.menu-item-title {
         /* Restaurant name */
         padding-top: 5px;
         font-size: 6vw;
+        text-align: center;
     }
 
     /* End Header */
